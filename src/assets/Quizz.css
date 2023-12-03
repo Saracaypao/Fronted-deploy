@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+
+
+.Card {
+  border-radius: 10px;
+  background: rgba(255, 241, 118, 0.89);
+  margin: 10rem 10rem 0 10rem;
+  padding-bottom: 1rem;
+}
+
+.TextHeader {
+  margin: 1rem 4rem 4rem 4rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 48px;
+  text-wrap: pretty;
+}
+
+.Cards {
+  display: flex;
+
+}
+
+.BtCard1 {
+  color: #fff;
+  border-radius: 6px;
+  background: #92CE6E;
+  margin: 0px 10px;
+  border-radius: 6px;
+  border: 0;
+  padding: 4rem 1rem;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.BtCard2 {
+  color: #fff;
+  border-radius: 6px;
+  background: rgba(49, 132, 225, 0.89);
+  margin: 0px 10px;
+  border-radius: 6px;
+  border: 0;
+  padding: 4rem 1rem;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+
+.BtCard3 {
+  color: #fff;
+  border-radius: 6px;
+  background: rgba(22, 91, 168, 0.89);
+  margin: 0px 10px;
+  border-radius: 6px;
+  border: 0;
+  padding: 4rem 1rem;
+  cursor: pointer;
+  font-size: 24px;
+
+}
+
+.BtCard4 {
+  color: #fff;
+  border-radius: 6px;
+  background: #0A498F;
+  margin: 0px 10px;
+  border-radius: 6px;
+  border: 0;
+  padding: 4rem 1rem;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.TextHeaderQuizFinshed,
+.Puntaje {
+  margin: 4rem 4rem 4rem 4rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 3.5px rgba(0, 0, 0, 0.1);
+  font-size: 48px;
+}
+
+.Puntaje {
+  text-shadow: 2px 2px 3.5px rgba(36, 255, 0, 0.75);
+}
+
+.RespCont {
+  border-radius: 20px;
+  background: rgba(34, 41, 54, 0.41);
+  margin: 0rem 2rem 4rem 2rem;
+  padding: 1rem;
+}
+
+.Pregunta {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: 'Unica', sans-serif;
+  color: white;
+}
+
+.Respuesta {
+  font-size: 20px;
+  font-family: 'Archivo', sans-serif;
+  text-shadow: 2px 2px 3.5px rgba(11, 11, 100, 0.1);
+  margin: 0px 1rem 2rem 1rem;
+  padding: 1rem;
+  border-radius: 7px;
+  background: #F6F6F6;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+}
+
+.Video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 2rem 7rem 2rem;
+}
+
+.ButtonVolver {
+  margin: 2rem;
+  background-color: #4aa6e3;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 25px;
+}
+
+.icons-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer .icons {
+  top: 0;
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer .icons img {
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 826px) {
+
+  body {
+    background-color: #131821;
+  }
+
+  .QuizAll {
+    background-image: none;
+  }
+
+  .Card {
+    margin: 15% 5% 0% 5%;
+    height: auto;
+    padding-bottom: 0px;
+
+  }
+
+  .TextHeader {
+    font-size: 30px;
+    margin: 20px;
+  }
+
+  .Cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .BtCard1,
+  .BtCard2,
+  .BtCard3,
+  .BtCard4 {
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .TextHeaderQuizFinshed {
+    font-size: 30px;
+    margin: 50px 20px 20px 20px;
+  }
+
+  .Puntaje {
+    font-size: 30px;
+    margin: 20px 20px 50px 20px;
+  }
+
+  .RespCont {
+    background-color: #D9D9D9;
+  }
+
+  .Pregunta {
+    font-size: 22px;
+    margin: 20px 20px 30px 20px;
+  }
+
+  .Video{
+    width: 100px;
+    height: 350px;
+  }
+  
+
+  /* Footer */
+
+
+  .icons-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    justify-content: center;
+  }
+
+  .icons {
+    width: 25px;
+    height: 15px;
+  }
+
+  .footer .icons-section img {
+    width: 100px;
+    height: 1rem;
+  }
+}

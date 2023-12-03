@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+
+.Roulette {
+  background-image: url(/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.roulette-container {
+  position: absolute;
+  left: 5%;
+  right: 70%;
+  margin: auto;
+  width: 150px;
+  top: 184px;
+  z-index: 1;
+}
+
+.botones {
+  pointer-events: all;
+  position: relative;
+  display: flex;
+  right: -57rem;
+  top: -15rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  z-index: 2;
+}
+
+
+.spin-button {
+  filter: drop-shadow(5px 7px 5px rgba(0, 0, 0, 0.50));
+  font-family: 'Archivo Black';
+  width: 16.25rem;
+  background-color: #0C24F9;
+  color: white;
+  padding: 10px 15px;
+  font-size: 30px;
+  border-radius: 3.75rem;
+  cursor: pointer;
+}
+
+.custom-button {
+  filter: drop-shadow(5px 7px 5px rgba(0, 0, 0, 0.50));
+  font-family: 'Archivo Black';
+  width: 16.25rem;
+  background-color: #0C24F9;
+  color: white;
+  padding: 10px 15px;
+  font-size: 30px;
+  border-radius: 3.75rem;
+  cursor: pointer;
+}
+
+.temas {
+  position: relative;
+  left: 550%;
+  right: 0;
+  top: -30rem;
+  height: 20rem;
+  width: 20rem;
+  z-index: 1;
+}
+
+
+.temas .Ruletemas {
+  color: #FFF;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+  font-family: Anybody;
+  font-size: 70px;
+  line-height: normal;
+}
+
+
+.opSelected {
+  font-family: 'Archivo', sans-serif;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  width: 400px;
+  margin: 0px 0px 0px 50rem;
+  padding: 10px 0px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: rgba(6, 4, 71, 0.20);
+}
+
+@media screen and (max-width: 720px) {
+
+  .Back {
+    margin: 0px;
+    padding: 24px 0px 0px 20px;
+  }
+
+  .Back img {
+    width: 35px;
+  }
+
+  .roulette-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 32%;
+    top: 15%;
+  }
+
+  .opSelected {
+    display: absolute;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
+    width: auto;
+    top: 72%;
+  }
+
+  .botones {
+    display: flex;
+    top: 70px;
+    right: 0px;
+    left: 0px;
+    width: auto;
+  }
+
+  .spin-button,
+  .custom-button {
+    font-size: 16px;
+    width: 120px;
+  }
+
+  .temas {
+    left: 5px;
+    top: -100px;
+  }
+
+  .temas .Ruletemas {
+    font-size: 30px;
+  }
+
+}

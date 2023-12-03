@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;500&display=swap');
+
+body {
+  margin: 0;
+  background-color: #0E1219;
+}
+
+.imgFondoLog {
+  display: none;
+}
+
+.LoginPage {
+  display: flex;
+}
+
+.LoginContainer {
+  width: 37.07%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ImageI {
+  width: 62.92%;
+  height: 100vh;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  color: #FED94B;
+  font-family: Unica One;
+  font-size: 60px;
+  text-transform: lowercase;
+  margin: 10% auto 0px auto;
+}
+
+.WC {
+  color: #FFF;
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
+  font-size: 48px;
+  margin: 15% auto;
+}
+
+
+.headerMail,
+.pw {
+  font-size: large;
+  font-family: 'Archivo Black', sans-serif;
+  color: #fff;
+}
+
+.headerMail {
+  margin-top: 18%;
+}
+
+
+.UserMail {
+  width: 100%;
+  height: 50px;
+  background-color: #1E2126;
+  border-radius: 5px;
+  font-size: inherit;
+  color: #ccc;
+  font-family: 'Archivo Black';
+  border: none;
+}
+
+.UserMail2{
+  width: 100%;
+  height: 50px;
+  background-color: #1E2126;
+  border-radius: 5px;
+  font-size: inherit;
+  color: #ccc;
+  font-family: 'Archivo Black';
+  border: none;
+  margin-bottom: 10%;
+
+}
+
+.UserMail {
+  margin-bottom: 10%;
+}
+
+
+.Button {
+  width: 100%;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  background: #0C24F9;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Archivo';
+  cursor: pointer;
+  margin-top: 8%;
+}
+
+.Button:hover {
+  background-color: #0A1896;
+}
+
+.pLink {
+  font-family: 'Archivo Black', sans-serif;
+  color: rgba(255, 255, 255, 0.50);
+  margin-top: 15%;
+  padding: 0px 7%;
+}
+
+.RegisterButton {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 826px) {
+  .ImageI {
+    display: none;
+  }
+
+  .Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .LoginContainer {
+    width: 100%;
+    height: 0%;
+  }
+
+  .Header {
+    font-size: 38px;
+    margin: 10% 10% 10% 10%;
+    width: 270px;
+    text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.25);
+  }
+
+  .image {
+    width: 15%;
+    margin: 0px;
+  }
+
+  .WC {
+    font-size: 30px;
+    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.25);
+    margin: 0%;
+  }
+
+  .headerMail,
+  .pw {
+    padding-left: 0px;
+  }
+
+  .UserMail {
+    margin: 0px;
+  }
+
+  .BoxWhite {
+    margin-top: 70px;
+    width: 310px;
+    height: 350px;
+    border-radius: 10px;
+    background: #FFF;
+  }
+
+  .headerMail,
+  .pw {
+    color: #000;
+    font-family: 'Archivo';
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    margin-top: 30px;
+  }
+
+  .UserMail{
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background: #D9D9D9;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #B7B7B7;
+    font-family: Archivo;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    color: #000;
+  }
+
+  .UserMail2{
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background: #D9D9D9;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #B7B7B7;
+    font-family: Archivo;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    color: #000;
+  }
+
+  .MailContainer,
+  .PasswordContainer {
+    margin-left: 20px;
+  }
+
+  .PasswordContainer {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .UserMail2{
+    margin-bottom: 0px;
+  }
+
+
+  .LoginButton {
+    margin: 30px 19px;
+    width: 264px;
+    height: 3%;
+    align-items: center;
+  }
+
+  .Button {
+    height: 45px;
+    font-size: 20px;
+  }
+
+  .Button:hover {
+    background-color: none;
+  }
+
+  .LoginButton{
+    margin: 0px 19px;
+  }
+
+  .ContentLink {
+    margin-top: 60px;
+    margin-left: 0px;
+    margin-right: 25px;
+  }
+
+  .pLink {
+    font-family: 'Archivo Black', sans-serif;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 27%;
+  }
+
+  .RegisterButton {
+    text-decoration: none;
+    color: #000;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  }
+
+  .imgFondoLog {
+    display: flex;
+    position: absolute;
+    margin-top: 72vh;
+    margin-left: 25%;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .imgFondoLog {
+    display: none;
+  }
+}

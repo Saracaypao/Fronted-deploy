@@ -1,0 +1,84 @@
+.BGImage {
+    position: absolute;
+    width: 60vh;
+    padding-top: 10%;
+    z-index: -1;
+}
+
+
+.RegisterText {
+    font-size: 50px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    margin-bottom: 7%;
+}
+
+.inputsRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.BoxesRegister {
+    margin-bottom: 50px;
+    width: 26%;
+    min-width: 400px;
+    height: 60px;
+    font-family: 'Archivo Black' sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1E2126;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+.LoginCont {
+    align-items: center;
+    width: 26%;
+    min-width: 400px;
+}
+
+.BoxButtons {
+    width: 26%;
+    min-width: 400px;
+    height: 60px;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'Archivo' sans-serifs;
+    font-size: 25px;
+    font-weight: bold;
+    background: #0C24F9;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 826px) {
+
+    .BGImage {
+        width: 50vh;
+    }
+
+    .RegisterText {
+        font-size: 30px;
+    }
+
+    .inputsRegister {
+        padding-top: 30%;
+    }
+
+    .BoxesRegister , .BoxButtons{
+        margin-bottom: 30px;
+        min-width: 250px;
+        height: 40px;
+    }
+
+    .LoginCont{
+        min-width: 250px;
+    }
+
+    .BoxButtons {
+        font-size: 17px;
+    }
+}   
